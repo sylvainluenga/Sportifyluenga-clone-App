@@ -3,7 +3,7 @@ import './App.css';
 import Login from "./Login";
 function App() {
   return (
-    // BEM
+    // BEM stopped at40 min
     <div className="app">
       <Login />
     </div>      
