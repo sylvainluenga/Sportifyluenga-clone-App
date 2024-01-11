@@ -20,7 +20,7 @@ function App() {
  }, []);
 
   return (
-    // stopped at
+    // stopped at 1h18min
     <div className="app">
       {
         token ? (
