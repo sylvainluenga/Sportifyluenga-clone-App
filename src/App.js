@@ -6,7 +6,7 @@ import { getTokenFromUrl } from "./spotify";
 function App() {
   const [token, setToken] = useState(null);
 
-  //this effect runs the code based on a given condition
+  // this effect runs the code based on a given condition
   useEffect(() => {
     const hash = getTokenFromUrl();
     window.location.hash = "";
